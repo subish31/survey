@@ -1,0 +1,54 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}.name{
+    display:flex;
+    gap:132px;
+}
+.check{
+    display:flex;
+    gap:50px;
+}
+
+p input[type=checkbox]{
+    margin-right: 5px;
+}
+button{
+    border:0px;
+    border-radius: 5px;
+    padding:5px;
+    width:450px;
+    background-color: rgb(222, 180, 102);
+    color: white;
+    font-weight: bold;
+}
+button:hover{
+    background-color: aquamarine;
+}
+.title{
+    letter-spacing: 5px;
+    font-size: 30px;
+    color:rgb(222, 180, 102) ;
+    font-weight: bold;
+    text-align: center;
+}
+.box{
+    display:flex;
+    gap:30px;
+}
+.ema{
+    margin-top: 5px;
+}
+.box input[type=text]{
+    margin-bottom: 10px;
+}
+input[type=email]{
+    margin-bottom: 10px;
+    width:400px;
+}
+
+.title{
+    padding-right: 50px;
+}
